@@ -7,7 +7,7 @@ public interface IQueueWithPriority<T extends Comparable<T>> extends Collection<
 	/**
 	 * remove the item who has the high priority.
 	 */
-	public boolean remove();
+	public boolean removeItem();
 	
 	/**
 	 * Find the item of the high priority.

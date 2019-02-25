@@ -47,19 +47,13 @@ public class QueueWithPriority<T extends Comparable<T>> implements IQueueWithPri
         return false;
     }
 
-    @Override
-    public Object[] toArray() {
-        return new Object[0];
-    }
-
-    @Override
-    public <T1> T1[] toArray(T1[] a) {
-        return null;
-    }
-
-    @Override
-    public boolean add(T t) {
-        return false;
+    /**
+     * Add an item to the queue
+     */
+    public boolean add(T e) {
+        this.queue.add(e);
+        this.size++;
+        return true;
     }
 
     @Override
@@ -93,21 +87,19 @@ public class QueueWithPriority<T extends Comparable<T>> implements IQueueWithPri
     }
 
     /**
-     * remove the item who has the high priority.
+     * Remove the item who has the high priority.
      */
-    public boolean remove() {
+    public boolean removeItem() {
         if (isEmpty()) return false;
         T t = maxOwner();
         return queue.remove(t);
-
-
     }
 
     /**
      * Find the item of the high priority.
      *
      * @return the item of the high priority
-     * @throws Exception
+     * @throwsException
      */
     public T maxOwner() {
         if (isEmpty()) throw new IndexOutOfBoundsException("The Queue is empty");
@@ -121,19 +113,33 @@ public class QueueWithPriority<T extends Comparable<T>> implements IQueueWithPri
         return queue.iterator();
     }
 
-    public static void main(String[] args) {
-        QueueWithPriority<Integer> q = new QueueWithPriority<>();
-        int i;
-        q.add(3);
-        q.add(1);
-        q.add(2);
-        q.add(5);
-        Iterator<Integer> it = q.iterator();
-        while (it.hasNext()) {
-            i = it.next();
-
-        }
-
+    @Override
+    public Object[] toArray() {
+        return new Object[0];
     }
 
+    @Override
+    public <T1> T1[] toArray(T1[] a) {
+        return null;
+    }
+
+    /**
+     * Display the queue.
+     *
+     * @return a queue in the form of string.
+     */
+    public String toString() {
+        int i;
+        String s = " [";
+
+        if (this.isEmpty()) {
+            s += "]";
+            return s;
+        }
+        for (i = 0; i < this.size; i++) {
+            s += this.queue.get(i) + ", ";
+        }
+        s = s.substring(0, s.length() - 2) + "]";
+        return s;
+    }
 }
