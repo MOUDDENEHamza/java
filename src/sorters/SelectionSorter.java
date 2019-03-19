@@ -16,8 +16,7 @@ public class SelectionSorter<T extends Comparable<T>> implements Isorter<T> {
     /**
      * Constructor of the class
      */
-    public SelectionSorter(int size) {
-        this.size = size;
+    public SelectionSorter() {
         this.al = new ArrayList<>();
     }
 

@@ -5,11 +5,9 @@ import java.util.ArrayList;
 public class BubbleSorter<T extends Comparable<T>> extends SelectionSorter<T> {
     /**
      * Constructor of the class
-     *
-     * @param size
      */
-    public BubbleSorter(int size) {
-        super(size);
+    public BubbleSorter() {
+        super();
     }
 
     /**

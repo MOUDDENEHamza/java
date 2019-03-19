@@ -17,7 +17,7 @@ public class TestTrieurs {
      */
     protected Random r = new Random();
     // On peut tester jusqu'à 5 trieurs
-    private int nbTrieurs = 2;
+    private int nbTrieurs = 3;
 
     @SuppressWarnings("unchecked")
     public TestTrieurs() {
@@ -37,22 +37,24 @@ public class TestTrieurs {
         SelectionSorter<Integer> t = null;
         switch (num + 1) {
             case 1:
-                t = new SelectionSorter<Integer>(5);
+                t = new SelectionSorter<>();
                 break;
 
              case 2:
-             t = new BubbleSorter<Integer>(5);
+             t = new BubbleSorter<>();
+             break;
+
+             case 3:
+             t = new ShakerSorter<>();
              break;
             /**
-             case 3:
-             t = new TrieurShaker<Integer>();
-             break;
              case 4:
              t = new TrieurPivot<Integer>();
              break;
              case 5:
              t = new TrieurFusion<Integer>();
-             break;*/
+             break;
+             */
             default:
         }
         return t;
@@ -69,7 +71,7 @@ public class TestTrieurs {
             int nbPerm = t.sort(t.getData());
             long fin = System.currentTimeMillis();
             System.out.println("After sorting : " + t.getData());
-            System.out.println("Time for " + t.size + " elements avec " + t.getClass().getName() + " : " +
+            System.out.println("Time for " + t.size + " elements with " + t.getClass().getName() + " : " +
                     (fin - debut) + " ms. Nb d'itérations : " + nbPerm);
         } catch (Exception e) {
             System.out.println("Erreur de tri des données " + t.getData() + " avec "
