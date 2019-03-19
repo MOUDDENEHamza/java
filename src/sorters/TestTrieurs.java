@@ -17,7 +17,7 @@ public class TestTrieurs {
      */
     protected Random r = new Random();
     // On peut tester jusqu'à 5 trieurs
-    private int nbTrieurs = 4;
+    private int nbTrieurs = 5;
 
     @SuppressWarnings("unchecked")
     public TestTrieurs() {
