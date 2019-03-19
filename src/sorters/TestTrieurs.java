@@ -17,7 +17,7 @@ public class TestTrieurs {
      */
     protected Random r = new Random();
     // On peut tester jusqu'à 5 trieurs
-    private int nbTrieurs = 1;
+    private int nbTrieurs = 2;
 
     @SuppressWarnings("unchecked")
     public TestTrieurs() {
@@ -39,10 +39,11 @@ public class TestTrieurs {
             case 1:
                 t = new SelectionSorter<Integer>(5);
                 break;
-            /**
+
              case 2:
-             t = new TrieurBulle<Integer>();
+             t = new BubbleSorter<Integer>(5);
              break;
+            /**
              case 3:
              t = new TrieurShaker<Integer>();
              break;
