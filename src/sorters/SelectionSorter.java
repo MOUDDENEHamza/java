@@ -41,24 +41,27 @@ public class SelectionSorter<T extends Comparable<T>> implements Isorter<T> {
         int j;
         int cpt = 0;
         int min;
-        for (i = 0; i < this.size - 1; i++) {
+        if(al.size() == 0 || al.size() == 1) {
+            return cpt;
+        }
+        for (i = 0; i < al.size() - 1; i++) {
             min = i;
-            for (j = i + 1; j < this.size; j++) {
-                cpt += 1;
-                if (this.al.get(i).compareTo(this.al.get(j)) > 0) {
+            for (j = i + 1; j < al.size(); j++) {
+                cpt++;
+                if (al.get(i).compareTo(al.get(j)) > 0) {
                     min = j;
-                }
-                if (i != min) {
-                    swap(i, min);
+                    if (i != min) {
+                        swap(i, min, al);
+                    }
                 }
             }
         }
         return cpt;
     }
 
-    public void swap(int i, int j) {
-        T temp = this.al.get(j);
-        this.al.set(j, this.al.get(i));
+    public void swap(int i, int j, ArrayList<T> al) {
+        T temp = al.get(j);
+        this.al.set(j, al.get(i));
         this.al.set(i, temp);
     }
 
@@ -69,6 +72,9 @@ public class SelectionSorter<T extends Comparable<T>> implements Isorter<T> {
      * @param al
      */
     public void setData(ArrayList<T> al) {
+        if (al.size() == 0) {
+            return;
+        }
         this.al = al;
     }
 
@@ -101,21 +107,4 @@ public class SelectionSorter<T extends Comparable<T>> implements Isorter<T> {
         return s;
     }
 
-    public static void main(String[] args) {
-        SelectionSorter s = new SelectionSorter(5);
-        ArrayList<Integer> a = new ArrayList<Integer>();
-        a.add(9);
-        a.add(1);
-        a.add(13);
-        a.add(2);
-        a.add(0);
-        System.out.println("*******************************SELECTION SORT*******************************");
-        System.out.println("The size of the queue is : " + s.getSize());
-        System.out.println("Added data is : [9, 1, 13, 2, 0] ");
-        s.setData(a);
-        System.out.println("Data before sorting : " + s.getData());
-        System.out.println("Number of iteration while Sorting data : " + s.sort(s.getData()));
-        System.out.println("Data after sorting sorting : " + s.getData());
-        System.out.println("**********************************THE END*******************************");
-    }
 }

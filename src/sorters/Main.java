@@ -12,13 +12,13 @@ public class Main {
     public static void main(String[] args) {
         System.currentTimeMillis();
         TestTrieurs ctl = new TestTrieurs();
-        System.out.println("----------------> On teste avec 0 éléments");
+        System.out.println("----------------> we try with 0 elements");
         ctl.trierRandomData(0);
-        System.out.println("----------------> On teste avec 1 élément");
+        System.out.println("----------------> we try with 1 elements");
         ctl.trierRandomData(1);
-        System.out.println("----------------> On teste avec des données déjà triées");
+        System.out.println("----------------> we try with already sorted data");
         ctl.trierDejaTrie();
-        System.out.println("----------------> On teste dans le pire cas");
+        System.out.println("----------------> we test with the worst case");
         ctl.trierInvTrie();
         System.out.println("----------------> On teste avec un nombre d'éléments choisi par l'utilisateur");
         boolean ok = false;

@@ -17,7 +17,7 @@ public class TestTrieurs {
      */
     protected Random r = new Random();
     // On peut tester jusqu'à 5 trieurs
-    private int nbTrieurs = 5;
+    private int nbTrieurs = 1;
 
     @SuppressWarnings("unchecked")
     public TestTrieurs() {
@@ -40,18 +40,18 @@ public class TestTrieurs {
                 t = new SelectionSorter<Integer>(5);
                 break;
             /**
-            case 2:
-                t = new TrieurBulle<Integer>();
-                break;
-            case 3:
-                t = new TrieurShaker<Integer>();
-                break;
-            case 4:
-                t = new TrieurPivot<Integer>();
-                break;
-            case 5:
-                t = new TrieurFusion<Integer>();
-                break;*/
+             case 2:
+             t = new TrieurBulle<Integer>();
+             break;
+             case 3:
+             t = new TrieurShaker<Integer>();
+             break;
+             case 4:
+             t = new TrieurPivot<Integer>();
+             break;
+             case 5:
+             t = new TrieurFusion<Integer>();
+             break;*/
             default:
         }
         return t;
@@ -63,20 +63,18 @@ public class TestTrieurs {
      */
     public void lancerTri(SelectionSorter<Integer> t) {
         try {
-            System.out.println("Avant tri : " + t.getData());
+            System.out.println("Before sorting : " + t.getData());
             long debut = System.currentTimeMillis();
             int nbPerm = t.sort(t.getData());
             long fin = System.currentTimeMillis();
-            System.out.println("Après tri : " + t.getData());
-            System.out.println(" Temps pour "
-                    + t.size + " elements avec "
-                    + t.getClass().getName()
-                    + " : " + (fin - debut) + " ms. Nb d'itérations : " + nbPerm);
+            System.out.println("After sorting : " + t.getData());
+            System.out.println("Time for " + t.size + " elements avec " + t.getClass().getName() + " : " +
+                    (fin - debut) + " ms. Nb d'itérations : " + nbPerm);
         } catch (Exception e) {
             System.out.println("Erreur de tri des données " + t.getData() + " avec "
                     + t.getClass().getName());
+            throw e;
         }
-
     }
 
 
