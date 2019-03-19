@@ -11,7 +11,7 @@ public class TestTrieurs {
     /**
      * pour tester on fixe le type des éléments à Integer
      */
-    protected Trieur<Integer> t[];
+    protected SelectionSorter<Integer> t[];
     /**
      * permet d'obtenir les données à trier
      */
@@ -21,7 +21,7 @@ public class TestTrieurs {
 
     @SuppressWarnings("unchecked")
     public TestTrieurs() {
-        t = new Trieur[nbTrieurs];
+        t = new SelectionSorter[nbTrieurs];
         for (int num = 0; num < nbTrieurs; num++) {
             t[num] = creerTrieur(num);
         }
@@ -33,12 +33,13 @@ public class TestTrieurs {
      * @param num numéro du trieur à créer en fonction du menu proposé
      * @return instance de trieur, référence un trieur concret
      */
-    public Trieur<Integer> creerTrieur(int num) {
-        Trieur<Integer> t = null;
+    public SelectionSorter<Integer> creerTrieur(int num) {
+        SelectionSorter<Integer> t = null;
         switch (num + 1) {
             case 1:
-                t = new SelectionSorter<Integer>();
+                t = new SelectionSorter<Integer>(5);
                 break;
+            /**
             case 2:
                 t = new TrieurBulle<Integer>();
                 break;
@@ -50,7 +51,7 @@ public class TestTrieurs {
                 break;
             case 5:
                 t = new TrieurFusion<Integer>();
-                break;
+                break;*/
             default:
         }
         return t;
@@ -60,15 +61,15 @@ public class TestTrieurs {
      * Lance le tri sur les données de v
      * calcule et affiche la durée en millisecondes + le nombre d'itérations
      */
-    public void lancerTri(Trieur<Integer> t) {
+    public void lancerTri(SelectionSorter<Integer> t) {
         try {
             System.out.println("Avant tri : " + t.getData());
             long debut = System.currentTimeMillis();
-            int nbPerm = t.sort();
+            int nbPerm = t.sort(t.getData());
             long fin = System.currentTimeMillis();
             System.out.println("Après tri : " + t.getData());
             System.out.println(" Temps pour "
-                    + t.getData().size() + " elements avec "
+                    + t.size + " elements avec "
                     + t.getClass().getName()
                     + " : " + (fin - debut) + " ms. Nb d'itérations : " + nbPerm);
         } catch (Exception e) {
@@ -127,4 +128,5 @@ public class TestTrieurs {
         }
         lancerTousLesTrieurs(v);
     }
+
 }

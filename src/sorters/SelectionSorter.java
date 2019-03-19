@@ -22,11 +22,21 @@ public class SelectionSorter<T extends Comparable<T>> implements Isorter<T> {
     }
 
     /**
+     * Get size of the list
+     *
+     * @return integer
+     */
+    public int getSize() {
+        return size;
+    }
+
+    /**
      * Sort the given arrayList given in the parameter
      *
      * @return an array list
+     * @param al
      */
-    public int sort(T al) {
+    public int sort(ArrayList<T> al) {
         int i;
         int j;
         int cpt = 0;
@@ -53,9 +63,10 @@ public class SelectionSorter<T extends Comparable<T>> implements Isorter<T> {
      * Set the arrayList of the class
      *
      * @return an arrayList
+     * @param al
      */
-    public void setData(T al) {
-        this.al = (ArrayList<T>) al;
+    public void setData(ArrayList<T> al) {
+        this.al = al;
     }
 
     /**
@@ -63,8 +74,8 @@ public class SelectionSorter<T extends Comparable<T>> implements Isorter<T> {
      *
      * @return an arrayList
      */
-    public T getData() {
-        return (T) this.al;
+    public  ArrayList<T> getData() {
+        return al;
     }
 
     /**
@@ -81,10 +92,27 @@ public class SelectionSorter<T extends Comparable<T>> implements Isorter<T> {
             return s;
         }
         for (i = 0; i < this.size; i++) {
-            s += this.al.get(i) + ", ";
+            s += al.get(i) + ", ";
         }
         s = s.substring(0, s.length() - 2) + "]";
         return s;
     }
 
+    public static void main(String[] args) {
+        SelectionSorter s = new SelectionSorter(5);
+        ArrayList<Integer> a = new ArrayList<Integer>();
+        a.add(9);
+        a.add(1);
+        a.add(13);
+        a.add(2);
+        a.add(0);
+        System.out.println("*******************************SELECTION SORT*******************************");
+        System.out.println("The size of the queue is : " + s.getSize());
+        System.out.println("Added data is : [9, 1, 13, 2, 0] ");
+        s.setData(a);
+        System.out.println("Data before sorting : " + s.getData());
+        System.out.println("Sort data : " + s.sort(s.getData()));
+        System.out.println("Data after sorting sorting : " + s.getData());
+        System.out.println("**********************************THE END*******************************");
+    }
 }

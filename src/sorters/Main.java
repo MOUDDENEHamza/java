@@ -2,8 +2,6 @@ package sorters;
 
 import java.util.Scanner;
 
-import static java.lang.System.currentTimeMillis;
-
 /**
  * @author MOUDDENE HAMZA
  * <p>
@@ -12,7 +10,7 @@ import static java.lang.System.currentTimeMillis;
 public class Main {
 
     public static void main(String[] args) {
-        int System.currentTimeMillis();
+        System.currentTimeMillis();
         TestTrieurs ctl = new TestTrieurs();
         System.out.println("----------------> On teste avec 0 éléments");
         ctl.trierRandomData(0);
@@ -43,4 +41,4 @@ public class Main {
         // On teste avec le nombre d'éléments choisi par l'utilisateur
         ctl.trierRandomData(nbElem);
     }
-}
+ }
