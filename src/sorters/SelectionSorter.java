@@ -40,15 +40,18 @@ public class SelectionSorter<T extends Comparable<T>> implements Isorter<T> {
         int i;
         int j;
         int cpt = 0;
-        int index = 0;
+        int min;
         for (i = 0; i < this.size - 1; i++) {
-            for (j = 1; j < this.size; j++) {
+            min = i;
+            for (j = i + 1; j < this.size; j++) {
                 cpt += 1;
                 if (this.al.get(i).compareTo(this.al.get(j)) > 0) {
-                    index = j;
+                    min = j;
+                }
+                if (i != min) {
+                    swap(i, min);
                 }
             }
-            this.swap(i, index);
         }
         return cpt;
     }
@@ -111,7 +114,7 @@ public class SelectionSorter<T extends Comparable<T>> implements Isorter<T> {
         System.out.println("Added data is : [9, 1, 13, 2, 0] ");
         s.setData(a);
         System.out.println("Data before sorting : " + s.getData());
-        System.out.println("Sort data : " + s.sort(s.getData()));
+        System.out.println("Number of iteration while Sorting data : " + s.sort(s.getData()));
         System.out.println("Data after sorting sorting : " + s.getData());
         System.out.println("**********************************THE END*******************************");
     }
