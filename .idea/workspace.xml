@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebc89739-ae1e-4ddc-b25a-6cbbcfc9c002" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/java/sorters/FusionSorter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/java/sorters/PivotSorter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/java/sorters/ShakerSorter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sorters/FusionSorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sorters/PivotSorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sorters/ShakerSorter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/sorters/BubbleSorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/sorters/BubbleSorter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/sorters/SelectionSorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/sorters/SelectionSorter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/sorters/TestTrieurs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/sorters/TestTrieurs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sorters/BubbleSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorters/BubbleSorter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sorters/SelectionSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorters/SelectionSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sorters/FusionSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorters/FusionSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sorters/PivotSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorters/PivotSorter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sorters/TestTrieurs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorters/TestTrieurs.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,14 +15,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sorters/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sorters/TestTrieurs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-704">
-              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+            <state relative-caret-position="270">
+              <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sorters/FusionSorter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -62,6 +70,8 @@
         <option value="$PROJECT_DIR$/src/sorters/SelectionSorter.java" />
         <option value="$PROJECT_DIR$/src/sorters/BubbleSorter.java" />
         <option value="$PROJECT_DIR$/src/sorters/ShakerSorter.java" />
+        <option value="$PROJECT_DIR$/src/sorters/FusionSorter.java" />
+        <option value="$PROJECT_DIR$/src/sorters/PivotSorter.java" />
         <option value="$PROJECT_DIR$/src/sorters/TestTrieurs.java" />
       </list>
     </option>
@@ -109,7 +119,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553024563815" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553028202545" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -228,12 +238,12 @@
       <workItem from="1551864359875" duration="5983000" />
       <workItem from="1552659749783" duration="596000" />
       <workItem from="1553008929059" duration="6849000" />
-      <workItem from="1553018573417" duration="5968000" />
+      <workItem from="1553018573417" duration="7552000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26137000" />
+    <option name="totallyTimeSpent" value="27721000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-2" width="1680" height="1052" extended-state="6" />
@@ -564,27 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sorters/FusionSorter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sorters/PivotSorter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sorters/BubbleSorter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sorters/SelectionSorter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -599,17 +588,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sorters/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sorters/ShakerSorter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+        <state relative-caret-position="405">
+          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
           <folding>
             <element signature="e#202#203#0" expanded="true" />
             <element signature="e#225#226#0" expanded="true" />
@@ -617,13 +599,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sorters/BubbleSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sorters/PivotSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sorters/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sorters/TestTrieurs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-704">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        <state relative-caret-position="270">
+          <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sorters/FusionSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>

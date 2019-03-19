@@ -17,7 +17,7 @@ public class TestTrieurs {
      */
     protected Random r = new Random();
     // On peut tester jusqu'à 5 trieurs
-    private int nbTrieurs = 3;
+    private int nbTrieurs = 4;
 
     @SuppressWarnings("unchecked")
     public TestTrieurs() {
@@ -47,14 +47,13 @@ public class TestTrieurs {
              case 3:
              t = new ShakerSorter<>();
              break;
-            /**
+
              case 4:
-             t = new TrieurPivot<Integer>();
+             t = new PivotSorter<>();
              break;
              case 5:
-             t = new TrieurFusion<Integer>();
+             t = new FusionSorter<>();
              break;
-             */
             default:
         }
         return t;
