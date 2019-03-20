@@ -2,10 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebc89739-ae1e-4ddc-b25a-6cbbcfc9c002" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.git.sh.swp" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/MainBinTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/MainSearchBinTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/TypeBrowse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sorters/FusionSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorters/FusionSorter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sorters/TestTrieurs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorters/TestTrieurs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1_Java.Introduction.x4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/3_JavaAvanceGenericite.x4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Exo0JavaPile.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Exo1JavaEnsemble.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Exo2JavaEnsembleTrie.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Exo4JavaFileInterface.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/JavaFiguresGeometriques2.odt.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Java_BasesSyntaxeADistribuer.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TD_TrieursSujet.odt.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TP7_2001_File_Circulaire_Generique_Sujet.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TP_File_Chainee_Generique_Sujet.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/codeconvention.2C.pdf" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,55 +30,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sorters/SelectionSorter.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Tree/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="85" selection-start-line="85" selection-end-line="85" />
-              <folding>
-                <element signature="e#381#382#0" expanded="true" />
-                <element signature="e#424#425#0" expanded="true" />
-                <element signature="e#1805#1806#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sorters/PivotSorter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sorters/TestTrieurs.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1366">
-              <caret line="105" selection-start-line="105" selection-end-line="105" />
+            <state relative-caret-position="604">
+              <caret line="122" column="29" lean-forward="true" selection-start-line="122" selection-start-column="29" selection-end-line="122" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#720#721#0" expanded="true" />
+                <element signature="e#753#754#0" expanded="true" />
+                <element signature="e#841#842#0" expanded="true" />
+                <element signature="e#875#876#0" expanded="true" />
+                <element signature="e#989#990#0" expanded="true" />
+                <element signature="e#1024#1025#0" expanded="true" />
+                <element signature="e#1133#1134#0" expanded="true" />
+                <element signature="e#1171#1172#0" expanded="true" />
+                <element signature="e#1286#1287#0" expanded="true" />
+                <element signature="e#1321#1322#0" expanded="true" />
+                <element signature="e#1435#1436#0" expanded="true" />
+                <element signature="e#1475#1476#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sorters/FusionSorter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sorters/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
         </entry>
@@ -97,14 +82,15 @@
         <option value="$PROJECT_DIR$/src/sorters/PivotSorter.java" />
         <option value="$PROJECT_DIR$/src/sorters/TestTrieurs.java" />
         <option value="$PROJECT_DIR$/src/sorters/FusionSorter.java" />
+        <option value="$PROJECT_DIR$/src/Tree/Node.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1650" />
-    <option name="y" value="135" />
-    <option name="width" value="1843" />
-    <option name="height" value="789" />
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="1853" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -114,6 +100,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,20 +118,18 @@
               <item name="java" type="b2602c69:ProjectViewProjectNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sorters" type="462c0819:PsiDirectoryNode" />
+              <item name="Tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553032603286" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553077772808" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -264,17 +250,18 @@
       <workItem from="1552659749783" duration="596000" />
       <workItem from="1553008929059" duration="6849000" />
       <workItem from="1553018573417" duration="11614000" />
+      <workItem from="1553073239311" duration="4526000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31783000" />
+    <option name="totallyTimeSpent" value="36309000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="-2" width="1680" height="1052" extended-state="6" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49839228" visible="true" weight="0.29498163" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49839228" visible="true" weight="0.29828444" />
       <window_info id="Designer" order="1" />
       <window_info id="Structure" order="2" sideWeight="0.5016077" side_tool="true" weight="0.2584394" />
       <window_info id="Image Layers" order="3" />
@@ -477,13 +464,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Set/Set.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -585,13 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Queue/ChainedQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Queue/ArrayListQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1170">
@@ -619,7 +592,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sorters/SelectionSorter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
+        <state relative-caret-position="1215">
           <caret line="85" selection-start-line="85" selection-end-line="85" />
           <folding>
             <element signature="e#381#382#0" expanded="true" />
@@ -638,7 +611,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sorters/TestTrieurs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1366">
+        <state relative-caret-position="1560">
           <caret line="105" selection-start-line="105" selection-end-line="105" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -648,7 +621,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sorters/FusionSorter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
+        <state relative-caret-position="645">
           <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
         </state>
       </provider>
@@ -657,6 +630,63 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/MainBinTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/MainSearchBinTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/TypeBrowse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stack/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="63" column="31" lean-forward="true" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Queue/ChainedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="150" column="8" selection-start-line="150" selection-start-column="8" selection-end-line="152" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="122" column="29" lean-forward="true" selection-start-line="122" selection-start-column="29" selection-end-line="122" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+            <element signature="e#1024#1025#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
+            <element signature="e#1171#1172#0" expanded="true" />
+            <element signature="e#1286#1287#0" expanded="true" />
+            <element signature="e#1321#1322#0" expanded="true" />
+            <element signature="e#1435#1436#0" expanded="true" />
+            <element signature="e#1475#1476#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
