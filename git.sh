@@ -6,7 +6,6 @@ if [ $# -ne 0 ] ; then
 fi
 
 git add .
-read -p "Enter the message to set up the commit : " message;
-echo $message
+read -p "the message to commit : " message
 git commit -m "$message"
 git push
