@@ -8,5 +8,5 @@ fi
 git add .
 read -p "Enter the message to set up the commit : " message;
 echo $message
-git commit -m "$$message"
+git commit -m "$message"
 git push
