@@ -4,8 +4,8 @@ import Queue.ChainedQueue;
 import Stack.Stack;
 
 /**
- * @author MOUDDENE HAMZA
  * @param <T>
+ * @author MOUDDENE HAMZA
  */
 public class Node<T extends Comparable<T>> {
 
@@ -31,6 +31,7 @@ public class Node<T extends Comparable<T>> {
 
     /**
      * Get the value from the tree
+     *
      * @return integer : an item of T type
      */
     public T getValue() {
@@ -46,6 +47,7 @@ public class Node<T extends Comparable<T>> {
 
     /**
      * Get the left son from the tree
+     *
      * @return Node<T> : a subtree
      */
     public Node<T> getLeftSon() {
@@ -61,6 +63,7 @@ public class Node<T extends Comparable<T>> {
 
     /**
      * Get the left son from the tree
+     *
      * @return Node<T> : a subtree
      */
     public Node<T> getRightSon() {
@@ -76,10 +79,11 @@ public class Node<T extends Comparable<T>> {
 
     /**
      * Check if the value given in the parameter is in the tree
+     *
      * @param value
      * @return boolean : True if it is in the tree, otherwise, false
      */
-    protected boolean contains(T value) {
+    public boolean contains(T value) {
         if (this.value == null) {
             return false;
         }
@@ -91,6 +95,7 @@ public class Node<T extends Comparable<T>> {
 
     /**
      * Calculation of the maximal depth of the tree
+     *
      * @return integer : representing the depth of the tree
      */
     public int getDepth() {
@@ -105,20 +110,22 @@ public class Node<T extends Comparable<T>> {
 
     /**
      * String representing the status of the tree
+     *
      * @return str : value of the node
      */
     public String toString() {
         String str = "";
         if (this.value == null) {
-            str += "]";
+            return str;
         } else {
             str += this.value;
+            return str;
         }
-        return str;
     }
 
     /**
      * Checks if two tree are equal
+     *
      * @param o is a parameter analogous to a tree
      * @return boolean : true if the two tree are equals, otherwise, false
      */
