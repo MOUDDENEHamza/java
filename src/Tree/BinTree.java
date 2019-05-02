@@ -14,14 +14,14 @@ public class BinTree<T extends Comparable<T>> {
      * @param typeBrowse : Represents the type of the browsing binary tree
      */
     protected Node<T> root;
-    protected TypeBrowse typeBrowse;
+    //protected TypeBrowse typeBrowse;
 
     /**
      * Constructor of the class
      */
     public BinTree() {
         this.root = null;
-        this.typeBrowse = null;
+        //this.typeBrowse = null;
     }
 
     /**

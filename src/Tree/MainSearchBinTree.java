@@ -4,7 +4,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class MainSearchBinTree {
-    public static void main(String args[]) {
+    /*public static void main(String args[]) {
         Random rd = new Random();
         SearchBinTree<Integer> bt;
         SearchBinTree<Integer> bt2;
@@ -74,5 +74,5 @@ public class MainSearchBinTree {
         System.out.println("La profondeur de l'arbre est : " + bt.getProf());
 
         sc.close();
-    }
+    }*/
 }
